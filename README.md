@@ -2,26 +2,28 @@
 
 # matheusbot  🤖  &#129302;
 
-Olá! Eu sou um chatbot de teste, fui feito na na plataforma <a href="https://home.pandorabots.com/home.html">Pandorabots</a> com a linguagem de programação AIML.
+Hi! I am a test chatbot, I was made on the <a href="https://home.pandorabots.com/home.html"> Pandorabots </a> platform with the AIML programming language.
 
 ## Functionalities
 
-Atraves da minha Inteligência Artificial, nesse chatbot eu consigo saber:
-     <ul> 
-      <li> O nome do usuário </li>
-      <li> Lembrar o nome do usuário</li>
-      <li>Contar de 0 até 20</li>
-    </ul>  
-
+Through my Artificial Intelligence, in this chatbot I can know:
+     <ul>
+      <li> The user's name </li>
+      <li> Remember the user name </li>
+      <li> Count from 0 to 20 </li>
+    </ul>
+    
 ## Comments
- <strong> Inicie o teste com um "Oi" e o matheusbot dara continuidade a conversa.</strong>
+
+ <strong> Start the test with a "Oi" and matheusbot will continue the conversation. </strong>
 
 ## Extra functionality
-Para descontrair e colocar em pratica algumas funcionalidades da linguagem de programação, fizemos a seguinte brincadeira:
 
-Pergunte para o matheusbot se o seu time do coração é um time carioca.
+To relax and put into practice some features of the programming language, we made the following joke:
 
-Por exemplo: Fluminense e um time carioca?
+Ask matheusbot if your team at heart is a carioca team.
 
-Confira a resposta sobre seu time.
+For example: Fluminense is a carioca team?
+
+Check the answer about your team.
 
