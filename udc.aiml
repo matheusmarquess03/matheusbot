@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Naõ entendi, pode falar de outra forma?</template>
+  </category>
+  
+  <category>
+    <pattern>OI</pattern>
+    <template> Olá, como você se chama?</template>
+  </category>
+  
+  <category>
+    <pattern>MEU NOME E *</pattern>
+    <template> Fala aí <set name="name"><star/></set>. Como posso te ajudar?</template>
+  </category>
+  
+  <category>
+    <pattern>COMO E MEU NOME</pattern>
+    <template>
+    <random>
+        <li> </li>
+        <li>Seu nome é </li>
+        <li>Tá esquecido hein </li>
+    </random>
+    <get name="name"/>
+    </template>
+  </category>
+  
+  <category>
+<pattern>CONTE DE <set>number</set> A <set>number</set></pattern>
+<template>
+    <set name="count"><star/></set><break/>
+    <condition name="count">
+     <li><value><star index="2"/></value></li>
+     <li>
+      <set name="count">
+        <map name="successor"><get name="count"/></map>      
+      </set><break/>
+      <loop/>
+     </li> 
+    </condition>
+</template>
+</category>
+
+ <category>
+      <pattern>* E UM TIME CARIOCA</pattern>
+      <template>
+          <think><set name="time"><star/></set></think>
+          <condition name="time">
+              <li value="Fluminense">Sim!</li>
+              <li value="Vasco">Sim!</li>
+              <li value="Flamengo">Sim!</li>
+              <li value="Botafogo">Sim!</li>
+              <li>Não, pode falar de outro time?</li>
+          </condition>
+      </template>
+  </category>
+  
+</aiml>
